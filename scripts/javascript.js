@@ -16,6 +16,10 @@
 	}
 	
 	$(document).ready(function() {
+		$('#text-input').keypress(function(e){
+	      if(e.keyCode==13)
+	      randomizeGraph();
+	    });
 		$('#facebook-share').hide();
 		$('#chart').hide();
 	});
