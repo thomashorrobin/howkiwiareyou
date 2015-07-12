@@ -1,6 +1,8 @@
 	function randomizeGraph() {
 		var name = $('#text-input').val();
 		// var ran = Math.random() * 100;
+		$('#text-input').hide();
+		$('#button').hide();
 		var ran = kiwishness(name);
 		var t = getquote(ran);
 		$('#maintext').html(t);
@@ -9,6 +11,7 @@
 	        columns: [['data', ran]]
 	    });
 	}, 0);
+	$('#chart').show();
 	}
 
 	function kiwishness(name) {
