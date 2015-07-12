@@ -8,7 +8,7 @@
 		$('#maintext').html(t);
 		setTimeout(function () {
 	    chart.load({
-	        columns: [['data', ran]]
+	        columns: [['data', Math.round(ran *10)/10]]
 	    });
 	}, 0);
 	$('#chart').show();
