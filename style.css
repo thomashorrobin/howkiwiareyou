@@ -77,10 +77,12 @@ input[type="text"] {
 
 #facebook-share {
 	color: #fff;
-	background-color: #3b5998;
-	border-radius: 70px;
+	background-color: #3b5998;	
 	width: 30%;
 	height: 50px;
+	border:none;
+	box-shadow: none;
+	border-radius: 70px;
 }
 
 a {
