@@ -75,6 +75,15 @@ input[type="text"] {
 	color: #d72c24;
 }
 
+#maintext {
+	color: #d72c24;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 20%;
+	margin-right:20%;
+	font-size: 200%;
+	font-weight: 700;
+}
 
 
 /* SECTION C */
