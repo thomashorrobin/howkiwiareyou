@@ -12,7 +12,13 @@
 	    });
 	}, 0);
 	$('#chart').show();
+	$('#facebook-share').show();
 	}
+	
+	$(document).ready(function() {
+		$('#facebook-share').hide();
+		$('#chart').hide();
+	});
 
 	// function kiwishness(name) {
 		// var strlen = name.length;

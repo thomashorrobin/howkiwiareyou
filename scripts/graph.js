@@ -1,10 +1,9 @@
-	var chart = c3.generate({
+var chart = c3.generate({
     data: {
         columns: [
-            ['data', 0]
+            ['data', 91.4]
         ],
         type: 'gauge',
-
         onclick: function (d, i) { console.log("onclick", d, i); },
         onmouseover: function (d, i) { console.log("onmouseover", d, i); },
         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
@@ -12,7 +11,7 @@
     gauge: {
        label: {
            format: function(value, ratio) {
-               return '';
+               return value;
            },
            show: false // to turn off the min/max labels.
        },
