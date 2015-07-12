@@ -9,8 +9,8 @@ var chart = c3.generate({
         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
     },
     tooltip: {
-  show: false
-},
+      show: false
+    },
     gauge: {
        label: {
            // format: function(value, ratio) {
