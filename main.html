@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>How Kiwi Are You?</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js" charset="utf-8"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" charset="utf-8"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="icon" type="image/x-icon" href="http://d3n8a8pro7vhmx.cloudfront.net/nzlabour/sites/10/favicon_images/original/fav.jpg?1404596627"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:500,700' rel='stylesheet' type='text/css'>
+	<script src="scripts/javascript.js"></script>
+
+
+</head>
+<body id="body">
+	<div class="container-fluid">
+
+		<img id="logo" src="logo.png">
+
+		<h1 id="header-text">Try our Kiwi-O-Meter!</h1>
+
+		<br><br>
+		<p id="body-text">On Saturday we announced that we found a tiny sample of data that Chinese people are causing house prices to rise. We know they are Chinese because their last names sound Chinese, and that is a <strong><em>scientific fact.</em></strong></p>
+		<br>
+		<p id="body-text">You can use this tool to find out just how Kiwi sounding your last name is. As we say the data is pretty small so it's not perfect, and the tool is a bit glitchy (like our Party), but little details like that don't really matter!</p>
+		<br>
+		<p id="body-text"><strong>Just enter your last name in the field below, and you are ready to find out just how kiwi you really are.</p>
+		<br><br>
+
+		<center><input id="text-input" type="text" placeholder="enter your last name here"></center>
+
+		<br><br>
+
+		<center><button id="button" type="button" onclick="randomizeGraph()">How Kiwi Am I?</button></center>
+
+		<div id="chart"></div>
+	  <h2 id="maintext"></h2>
+	</div>
+
+	<script src="scripts/graph.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('#text-input').keypress(function(e){
+      if(e.keyCode==13)
+      randomizeGraph();
+    });
+});
+	</script>
+</body>
+</html>
