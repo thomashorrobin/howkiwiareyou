@@ -80,16 +80,18 @@ input[type="text"] {
 /* SECTION C */
 
 #footer {
-
+	background-color:#070707;
 }
 
 #footer-text {
 	color: #ffffff;
-	text-align: justify;
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	margin-left: 20%;
 	margin-right:20%;
-	font-size: 140%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 100%;
 }
 
 
