@@ -27,7 +27,7 @@
 
 	function getquote(percent) {
 		if (percent < 10) {
-			return "OMG YOU ARE SO CHINESE SOUNDING, stop buying all the houses in Auckland. OMG it is so bad, Labour are so angry!! GRrrr.";
+			return "OMG YOU ARE SO CHINESE SOUNDING, stop buying all the houses in Auckland. Grrrrrr.";
 		} else if (percent < 20) {
 			return "If we&lsquo;re being honest our data isn&lsquo;t that reliable, it&lsquo;s from a small sample and we&lsquo;ve taken a big punt on this, but we&lsquo;re confident in two things: 1. Labour will win the next election and, 2. you are pretty Chinese! Therefore no house buying from you please. We need Kiwis with Kiwi sounding names buying houses.";
 		} else if (percent < 30) {

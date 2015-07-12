@@ -75,6 +75,29 @@ input[type="text"] {
 	color: #d72c24;
 }
 
+#facebook-share {
+	color: #fff;
+	background-color: #3b5998;
+	border-radius: 70px;
+	width: 30%;
+	height: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 50px
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 22px;
+}
+
+
 #maintext {
 	color: #d72c24;
 	text-align: justify;
@@ -84,6 +107,7 @@ input[type="text"] {
 	font-size: 200%;
 	font-weight: 700;
 }
+
 
 
 /* SECTION C */
