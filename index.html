@@ -2,7 +2,6 @@
 <head>
 	<title>How Kiwi Are You?</title>
 	<meta property="og:site_name" content="How Kiwi Are You?"/>
-	<meta property="og:url" content="http://howkiwiareyou.nz/"/>
 	<meta property="og:title" content="Use our Kiwi-O-Meter to find out if you can buy a house in Auckland"/>
 	<meta property="og:description" content="" />
 	<meta property="og:image" content="HK2.png" />
@@ -12,12 +11,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" charset="utf-8"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="scripts/javascript.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="icon" type="image/x-icon" href="http://d3n8a8pro7vhmx.cloudfront.net/nzlabour/sites/10/favicon_images/original/fav.jpg?1404596627"/>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,700' rel='stylesheet' type='text/css'>
+	<meta name="google-site-verification" content="6kfIxzAhQhztPKh0l9Kztc_vOgM5b6AF3LbcPhM1Bek" />
 </head>
 <body >
+
 	<div class="container-fluid" id="header">
 
 		<img id="logo" type="image/png" src="logo.png">
@@ -45,19 +46,12 @@
 		<div id="chart"></div>
 		<br>
 	  <h2 id="maintext"></h2>
-	  <br><br>
+	  <br>
+	  <center><div id="facebook-share">
+	  	<a href="https://www.facebook.com/sharer/sharer.php?u=http://howkiwiareyou.nz/">Share on Facebook</a>
+	  </div></center>
+	  <br>
 	</div>
-
-	<script src="scripts/graph.js"></script>
-	<script>
-	$(document).ready(function(){
-    $('#text-input').keypress(function(e){
-      if(e.keyCode==13)
-      randomizeGraph();
-    });
-		$('#chart').hide();
-});
-	</script>
 
 	<div class="container-fluid" id="footer">
 		<p id="footer-text">IMPORTANT: This is a placeholder tool to ascertain whether you are a hardworking Kiwi or an exploitative Chinese-sounding person as Labour haven't followed up their race-baiting commentary with a substantive policy supported by reliable data. <strong>This website is not run by the NZ Labour Party.</strong></p>
