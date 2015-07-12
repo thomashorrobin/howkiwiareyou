@@ -128,6 +128,11 @@ a:hover {
 	font-weight: 300;
 	line-height: 150%;
 }
+
+#footer-strong {
+	font-weight: 700;	
+}
+
 /* MEDIA QUERIES */
 
 @media(max-width:767px){
@@ -139,6 +144,11 @@ a:hover {
 
 	#button, #facebook-share, input[type="text"] {
 		width: 70%;
+	}
+
+	#maintext {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
