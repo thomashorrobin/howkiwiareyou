@@ -85,13 +85,15 @@ input[type="text"] {
 
 #footer-text {
 	color: #ffffff;
-	text-align: center;
+	text-align: justify;
 	font-family: 'Raleway', sans-serif;
-	margin-left: 20%;
-	margin-right:20%;
+	margin-left: 10%;
+	margin-right:10%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-size: 100%;
+	font-weight: 300;
+	line-height: 150%;
 }
 
 
