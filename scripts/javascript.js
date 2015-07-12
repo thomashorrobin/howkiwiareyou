@@ -41,7 +41,7 @@
 		} else if (percent < 70) {
 			return "Based on that surname you&lsquo;re Kiwi enough. Even though we think you&lsquo;re pushing it, we&lsquo;ll give you a pass on this occasion.";
 		} else if (percent < 80) {
-			return "We’re going out on a limb here to say that you’re sort of Kiwi, so technically you’re welcome to go and put offers in on some houses. Just so you know our data guru in Wellington is using this fancy Bayesian analysis using the probability of last names it’s not perfect but its a start!";
+			return "We&lsquo;re going out on a limb here to say that you’re sort of Kiwi, so technically you&lsquo;re welcome to go and put offers in on some houses. Just so you know our data guru in Wellington is using this fancy Bayesian analysis using the probability of last names it’s not perfect but its a start!";
 		} else if (percent < 90) {
 			return "You&lsquo;re really Kiwi - good on you, grab a dozen beers and lay down some Number 8 wire at the edge of your property if you&lsquo;re having an open home - only proper Kiwis know how to get past Number 8 wire.";
 		} else {
